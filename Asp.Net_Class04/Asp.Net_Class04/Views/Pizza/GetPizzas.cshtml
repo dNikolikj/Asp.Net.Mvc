@@ -1,0 +1,38 @@
+﻿
+@using  Asp.Net_Class04.Models.Domain;
+@using Asp.Net_Class04.Models.Enums;
+@using Asp.Net_Class04.Models.ViewModels;
+@using Asp.Net_Class04.Models.Mappers;
+
+@model List<PizzaViewModel>
+
+    <partial name="~/Views/Shared/Partials/_PizzaGreeting.cshtml"/>
+    <h1>We have the following pizza orders:</h1>
+    <ul>
+@{  
+    for (int i = 0; i < @Model.Count; i++)
+    {
+            //<li>@Model.ElementAt(i).Name @Model.ElementAt(i).Price</li>
+            <partial name ="~/Views/Shared/Partials/_PizzaDetailsPartial.cshtml" for = "@Model[i]"/>
+        }
+
+    }
+
+</ul>
+
+
+@{
+    int totalPrice = 0;
+
+    foreach(PizzaViewModel pizza in @Model)
+    {
+        totalPrice += pizza.Price;
+    }
+}
+
+
+<h2>The total cost of all pizzas is @totalPrice denars.</h2>
+
+
+
+

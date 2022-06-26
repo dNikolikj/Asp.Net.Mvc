@@ -1,0 +1,26 @@
+﻿
+@using  Asp.Net_Class04.Models.Domain;
+@using Asp.Net_Class04.Models.Enums;
+@using Asp.Net_Class04.Models.ViewModels;
+@using Asp.Net_Class04.Models.Mappers;
+
+@model PizzaViewModel 
+
+<partial name="~/Views/Shared/Partials/_PizzaGreeting.cshtml"/>
+@*3. Add partial view for showing details of a pizza and use it in both the Pizza Index and Pizza Details view.*@
+
+<h1><partial name="~/Views/Shared/Partials/_PizzaDetailsPartial.cshtml" for="@Model"/></h1>
+
+@*1. Add property IsOnPromotion to the Pizza Model and the PizzaViewModel if there isn't already a property called IsPromotion. Use an if expression in the Pizza Details View 
+and add a h4 tag that will say whether the pizza is on promotion or not depending on the property IsOnPromotion.*@
+@{
+
+    if(@Model.IsOnPromotion)
+    {
+        <h4>The pizza @Model.Name is on promotion and it costs @(Model.Price - 50) denars.</h4>
+    } else
+    {
+        <h4>The pizza @Model.Name is not on promotion and it costs @(@Model.Price) denars.</h4>
+    }
+
+}

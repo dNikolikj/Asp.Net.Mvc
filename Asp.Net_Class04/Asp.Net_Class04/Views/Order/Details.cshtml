@@ -1,0 +1,14 @@
+﻿
+
+
+@*<h1>@ViewBag.Title</h1>
+<h3>The order was made by user with phone number @ViewBag.User.PhoneNumber</h3>
+<p>@Model.UserFullname  ordered @Model.PizzaName, @Model.UserFullname paid @Model.Price denars by @Model.PaymentMethod.</p>
+
+*@
+@model OrderDetailsViewModel
+<h2>Order details:</h2>
+
+
+<partial name = "~/Views/Shared/Partials/_OrderDetailsPartial.cshtml" for="@Model"/>
+

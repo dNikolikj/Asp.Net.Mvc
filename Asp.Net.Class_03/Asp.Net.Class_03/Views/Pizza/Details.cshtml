@@ -1,0 +1,13 @@
+﻿@* @using Asp.Net.Class_03.Models.Domain;
+        @model Pizza
+
+        <h2>Details for @Model.Name</h2>
+        <p>Price: @Model.Price</p>
+*@
+
+@using Asp.Net.Class_03.Models.ViewModels;
+
+@model PizzaViewModel
+
+
+<p>@Model.Name is @Model.PizzaSize size pizza and it costs @Model.Price.</p>

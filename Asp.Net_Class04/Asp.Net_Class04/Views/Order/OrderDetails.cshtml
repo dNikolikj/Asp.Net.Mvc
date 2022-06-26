@@ -1,0 +1,41 @@
+﻿@model OrderDetailsViewModel
+
+<h1>ViewBag.Title</h1>
+
+<h3>The order was made by user with phone number @ViewBag.User.PhoneNumber</h3>
+
+<p>@Model.UserFullname ordered @Model.PizzaName. @Model.UserFullname paid @Model.Price by @Model.PaymentMethod.</p>
+
+@*//Expression*@
+<p>@($"The order was made by {Model.UserFullname}")</p>
+<p>The new price: @(Model.Price - Model.Price*0.1)</p>
+
+@*//Expression*@
+
+@*//Block Of code. We don't have to use @ inside the block. If we want to use  the variable outside, we have to use it with a @.*@
+
+@{
+
+
+    string deliveredMessage = "";
+    if(Model.Delivered)
+    {
+        deliveredMessage = "The order was delivered.";
+    } else
+    {
+        deliveredMessage = "The order was not delivered yet.";
+    }
+    Model.Price += 100;
+
+}
+
+<p>@deliveredMessage</p>
+@*If we want to use only structures, using @ infront is enough*@
+
+@if(Model.Delivered)
+{
+    <h3>Delivered!</h3>
+} else
+{
+    <h3>Not delivered!</h3>
+}
