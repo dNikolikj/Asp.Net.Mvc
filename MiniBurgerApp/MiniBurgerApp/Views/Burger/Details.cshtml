@@ -1,0 +1,15 @@
+﻿@model BurgerViewModel
+
+
+<div class= "text-center">
+
+<h2>@ViewData["Title"]</h2>
+
+
+
+<partial name ="~/Views/Shared/Partials/_BurgerDetails.cshtml" for="@Model"/>
+
+<a asp-action ="BurgerMenu"> ⏮ Menu</a>
+<a asp-controller="Home" asp-action ="Index"> ⏮ Home</a>
+
+</div>

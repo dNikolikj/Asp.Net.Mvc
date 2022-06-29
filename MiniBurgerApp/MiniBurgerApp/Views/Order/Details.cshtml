@@ -1,0 +1,8 @@
+﻿@model OrderViewModel
+
+<div class ="text-center">
+<h2>@ViewBag.Title</h2>
+<a asp-controller="Burger" asp-action="BurgerMenu">🔙 To 🍔</a>
+<a asp-action ="SeeOrders">🔙 To 📦</a>
+</div>
+<partial name = "~/Views/Shared/Partials/_OrderDetails.cshtml" for="@Model"/>

@@ -1,0 +1,7 @@
+﻿@model OrderViewModel
+
+<div class ="text-center">
+<h5>@Model.RecipientFullName from "@Model.RecipientAddress" ordered burger <label asp-for="BurgerName" ></label> "@Html.DisplayFor(x => x.BurgerName)", in our @Model.StoreAddress store.</h5>
+<text>The price of this burger  is @Model.Price denars.The bill was paid by @Model.PaymentMethod.</text>
+</div>
+
