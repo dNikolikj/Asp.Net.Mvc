@@ -6,18 +6,18 @@
     <div class="col-md-4">
         <form asp-action="ModifyOrderPost" method="post">
             <input type="hidden" asp-for="Id"/>
-            <div class="form-group">
-                <label asp-for="BurgerName" class="control-label"></label>
-                <input asp-for="BurgerName" class="form-control"/>
+          <div class="form-group">
+              <label asp-for="BurgerName" class="control-label"></label>
+              <select class="form-control" asp-for="BurgerName" asp-items="@(new SelectList(ViewBag.Burgers,"Name", "Name"))"></select>
             </div> 
              <div class="form-group">
                 <label asp-for="RecipientAddress" class="control-label"></label>
                 <input asp-for="RecipientAddress" class="form-control"/>
             </div> 
-            <div class="form-group">
-                <label asp-for="RecipientFullName" class="control-label"></label>
-                <input asp-for="RecipientFullName" class="form-control"/>
-            </div> 
+             <div class="form-group">
+              <label asp-for=" RecipientFullName" class="control-label"></label>
+              <select class="form-control" asp-for=" RecipientFullName" asp-items="@(new SelectList(ViewBag.Orders,"RecipientFullName", "RecipientFullName"))"></select>
+            </div>
           <div class="form-group">
                 <label asp-for="StoreAddress" class="control-label"></label>
                <select class="form-control" asp-for="StoreAddress" asp-items="Html.GetEnumSelectList<StoreAddress>()"></select>

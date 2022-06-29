@@ -61,6 +61,11 @@ namespace MiniBurgerApp.Controllers
         public IActionResult MakeBurger()
         {
             BurgerViewModel burgerViewModel = new BurgerViewModel();
+            ViewBag.Burgers = StaticDb.Burgers.Select(b => new BurgerDDViewModel
+            {
+                
+                Name = b.Name
+            });
 
             return View(burgerViewModel);
         }
@@ -73,11 +78,15 @@ namespace MiniBurgerApp.Controllers
                 Id = StaticDb.BurgerId + 1,
                 Name = burgerViewModel.BurgerName,
                 BurgerType = burgerViewModel.ChooseYourBurgerFit,
-                HasFries = burgerViewModel.Fries,
+                HasFries = burgerViewModel.Fries, 
                 Price = 450
-
-
+             
             };
+            ViewBag.Burgers = StaticDb.Burgers.Select(b => new BurgerDDViewModel
+            {
+
+                Name = b.Name
+            });
 
             StaticDb.Burgers.Add(newBurger);
             StaticDb.BurgerId++;
@@ -96,6 +105,13 @@ namespace MiniBurgerApp.Controllers
             {
                 return View("ResourceNotFound");
             }
+
+            ViewBag.Burgers = StaticDb.Burgers.Select(b => new BurgerDDViewModel
+            {
+                
+
+                Name = b.Name,
+            });
             BurgerViewModel burgerViewModel = BurgerMapper.ToBurgerViewModel(burgerDb);
 
             return View(burgerViewModel);

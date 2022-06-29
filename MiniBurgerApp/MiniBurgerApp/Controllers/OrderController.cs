@@ -39,14 +39,25 @@ namespace MiniBurgerApp.Controllers
         {
             OrderViewModel orderViewModel = new OrderViewModel();
 
+            ViewBag.Burgers = StaticDb.Burgers.Select(b => new BurgerDDViewModel
+            {
+
+                Name = b.Name,
+            });
+            ViewBag.Orders = StaticDb.Orders.Select(x => new OrderDDViewModel
+            {
+                
+                RecipientFullName = x.RecipientFullName,
+            });
+
             return View(orderViewModel);
 
         }
 
         [HttpPost]
-        public IActionResult AddNewOrderPost(OrderViewModel orderViewModel)
+        public IActionResult AddNewOrderPost(OrderViewModel orderViewModell)
         {
-            Burger burgerDb = StaticDb.Burgers.FirstOrDefault(b => b.Name == orderViewModel.BurgerName);
+            Burger burgerDb = StaticDb.Burgers.FirstOrDefault(b => b.Name == orderViewModell.BurgerName);
             if(burgerDb == null)
             {
                 return View("ResourceNotFound");
@@ -55,16 +66,28 @@ namespace MiniBurgerApp.Controllers
             Order recentlyAddedOrder = new Order()
             {
                 Id = StaticDb.OrderId + 1,
-                PaymentMethod = orderViewModel.PaymentMethod,
-                StoreAddress = orderViewModel.StoreAddress,
+                PaymentMethod = orderViewModell.PaymentMethod,
+                StoreAddress = orderViewModell.StoreAddress,
+                RecipientFullName = orderViewModell.RecipientFullName,
                 Burger = burgerDb,
                 BurgerId =burgerDb.Id,
-                IsDelivered = orderViewModel.IsDelivered,
-                RecipientFullName = orderViewModel.RecipientFullName,
-                RecipientLocation =orderViewModel.RecipientAddress
+                IsDelivered = orderViewModell.IsDelivered,
+                RecipientLocation = orderViewModell.RecipientAddress 
+
+            };
+            ViewBag.Burgers = StaticDb.Burgers.Select(b => new BurgerDDViewModel
+            {
                 
 
-            }; 
+                Name = b.Name,
+            });
+            ViewBag.Orders = StaticDb.Orders.Select(x => new OrderDDViewModel
+            {
+             
+
+                RecipientFullName = x.RecipientFullName,
+            });
+
             StaticDb.Orders.Add(recentlyAddedOrder);
             StaticDb.OrderId++;
             return RedirectToAction("SeeOrders");
@@ -82,6 +105,17 @@ namespace MiniBurgerApp.Controllers
             {
                 return View("ResourceNotFound");
             }
+            ViewBag.Burgers = StaticDb.Burgers.Select(b => new BurgerDDViewModel
+            {
+                
+                Name = b.Name,
+            });
+            ViewBag.Orders = StaticDb.Orders.Select(x => new OrderDDViewModel
+            {
+               
+
+                RecipientFullName = x.RecipientFullName,
+            });
             OrderViewModel orderViewModel = OrderMapper.ToOrderViewModel(orderDb);  
             return View(orderViewModel);
         }

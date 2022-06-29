@@ -14,6 +14,7 @@ namespace MiniBurgerApp.Models.ViewModels
         [Display(Name = "Your address:")]
         public string RecipientAddress { get; set; }
         [Display(Name = "State the location of our store:")]
+        
         public StoreAddress StoreAddress { get; set; }
         [Display(Name = "Would you prefere to pay in cash or by card:")]
         public PaymentMethod PaymentMethod { get; set; }
