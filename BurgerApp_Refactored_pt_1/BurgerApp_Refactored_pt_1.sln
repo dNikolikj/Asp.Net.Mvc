@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurgerApp.Domain_Refactored", "BurgerApp.Domain_Refactored\BurgerApp.Domain_Refactored.csproj", "{373E8F2F-875C-4550-925E-E4C9F53A7B69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurgerApp.DataAccess_Refactored", "BurgerApp.DataAccess_Refactored\BurgerApp.DataAccess_Refactored.csproj", "{5EF90CE8-6733-44D8-8E0C-A4FED325FAD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurgerApp.Mappers_Refactored", "BurgerApp.Mappers_Refactored\BurgerApp.Mappers_Refactored.csproj", "{DE4A5E98-9CD2-4F33-A194-B088BC096533}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurgerApp.ViewModels_Refactored", "BurgerApp.ViewModels_Refactored\BurgerApp.ViewModels_Refactored.csproj", "{B3081822-E97D-4DE0-80B4-50509D289869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurgerApp.Helpers_Refactored", "BurgerApp.Helpers_Refactored\BurgerApp.Helpers_Refactored.csproj", "{F65297ED-9B0A-4CDF-A638-ED2089E34924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurgerApp.Services_Refactored", "BurgerApp.Services_Refactored\BurgerApp.Services_Refactored.csproj", "{5043A585-6F3A-40E6-B650-6F5AEF6E44F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurgerAppRefactored", "BurgerAppRefactored\BurgerAppRefactored.csproj", "{15F54382-30FF-427C-8542-3C453C10C91D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{373E8F2F-875C-4550-925E-E4C9F53A7B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373E8F2F-875C-4550-925E-E4C9F53A7B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373E8F2F-875C-4550-925E-E4C9F53A7B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373E8F2F-875C-4550-925E-E4C9F53A7B69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EF90CE8-6733-44D8-8E0C-A4FED325FAD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF90CE8-6733-44D8-8E0C-A4FED325FAD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF90CE8-6733-44D8-8E0C-A4FED325FAD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF90CE8-6733-44D8-8E0C-A4FED325FAD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE4A5E98-9CD2-4F33-A194-B088BC096533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4A5E98-9CD2-4F33-A194-B088BC096533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4A5E98-9CD2-4F33-A194-B088BC096533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4A5E98-9CD2-4F33-A194-B088BC096533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3081822-E97D-4DE0-80B4-50509D289869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3081822-E97D-4DE0-80B4-50509D289869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3081822-E97D-4DE0-80B4-50509D289869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3081822-E97D-4DE0-80B4-50509D289869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F65297ED-9B0A-4CDF-A638-ED2089E34924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F65297ED-9B0A-4CDF-A638-ED2089E34924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F65297ED-9B0A-4CDF-A638-ED2089E34924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F65297ED-9B0A-4CDF-A638-ED2089E34924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5043A585-6F3A-40E6-B650-6F5AEF6E44F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5043A585-6F3A-40E6-B650-6F5AEF6E44F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5043A585-6F3A-40E6-B650-6F5AEF6E44F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5043A585-6F3A-40E6-B650-6F5AEF6E44F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15F54382-30FF-427C-8542-3C453C10C91D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15F54382-30FF-427C-8542-3C453C10C91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15F54382-30FF-427C-8542-3C453C10C91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15F54382-30FF-427C-8542-3C453C10C91D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE3AE74B-C468-4BF4-81FC-BCD877B178EF}
+	EndGlobalSection
+EndGlobal

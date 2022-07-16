@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BurgerApp.Mappers_Refactored/1.0.0": {
+        "dependencies": {
+          "BurgerApp.ViewModels_Refactored": "1.0.0"
+        },
+        "runtime": {
+          "BurgerApp.Mappers_Refactored.dll": {}
+        }
+      },
+      "BurgerApp.Domain_Refactored/1.0.0": {
+        "runtime": {
+          "BurgerApp.Domain_Refactored.dll": {}
+        }
+      },
+      "BurgerApp.ViewModels_Refactored/1.0.0": {
+        "dependencies": {
+          "BurgerApp.Domain_Refactored": "1.0.0"
+        },
+        "runtime": {
+          "BurgerApp.ViewModels_Refactored.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BurgerApp.Mappers_Refactored/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BurgerApp.Domain_Refactored/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BurgerApp.ViewModels_Refactored/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

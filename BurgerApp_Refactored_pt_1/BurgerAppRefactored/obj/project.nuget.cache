@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uF+tod04b8EoXNPxBB6RF1eN3+okenjqhVZNpbR+O3XUO1sqE3eu+fNwFgd3gcuyC/sqIWsE5wd6/ZAS0zZV+Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Darko Nikolikj\\Desktop\\Asp\\Asp.Net.Mvc\\BurgerApp_Refactored_pt_1\\BurgerAppRefactored\\BurgerAppRefactored.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Darko Nikolikj\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

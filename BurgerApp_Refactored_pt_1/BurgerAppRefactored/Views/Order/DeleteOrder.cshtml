@@ -1,0 +1,25 @@
+﻿@model OrderDetailsViewModel
+
+<div class="text-center">
+    <h2>Think twice before you leave this cuisine hungry...</h2>
+
+</div>
+
+<div class="text-center">
+    <h2>These are your order details:</h2>
+    <h2>@Model.UserFullName:</h2>
+
+
+    @foreach (var burger in @Model.SoundsDelicious)
+    {
+        <text><strong>@burger</strong></text>
+    }
+
+    <p><strong>The order was made at our store in @Model.YourMapPick.</strong></p>
+
+    <p><strong>The total cost for this order is @Model.Price denars, and you choose to pay by @Model.PaymentMethod.</strong> </p>
+    <h4 class="text-center"> <a asp-controller="Order" asp-action="AddBurger" asp-route-id="@Model.Id">Let's add new burger to the basket instead!</a></h4>
+</div>
+<div class="text-center"> 
+    <button style="background-color:aquamarine; border-radius:5px;" ><a asp-controller="Order" asp-action="ConfirmDelete" asp-route-id="@Model.Id">Confirm</a></button> 
+    </div>

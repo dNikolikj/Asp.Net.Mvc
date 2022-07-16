@@ -1,0 +1,119 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BurgerAppRefactored/1.0.0": {
+        "dependencies": {
+          "BurgerApp.DataAccess_Refactored": "1.0.0",
+          "BurgerApp.Domain_Refactored": "1.0.0",
+          "BurgerApp.Helpers_Refactored": "1.0.0",
+          "BurgerApp.Mappers_Refactored": "1.0.0",
+          "BurgerApp.Services_Refactored": "1.0.0",
+          "BurgerApp.ViewModels_Refactored": "1.0.0"
+        },
+        "runtime": {
+          "BurgerAppRefactored.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {},
+      "BurgerApp.DataAccess_Refactored/1.0.0": {
+        "dependencies": {
+          "BurgerApp.Domain_Refactored": "1.0.0"
+        },
+        "runtime": {
+          "BurgerApp.DataAccess_Refactored.dll": {}
+        }
+      },
+      "BurgerApp.Domain_Refactored/1.0.0": {
+        "runtime": {
+          "BurgerApp.Domain_Refactored.dll": {}
+        }
+      },
+      "BurgerApp.Helpers_Refactored/1.0.0": {
+        "dependencies": {
+          "BurgerApp.DataAccess_Refactored": "1.0.0",
+          "BurgerApp.Domain_Refactored": "1.0.0",
+          "BurgerApp.Services_Refactored": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "BurgerApp.Helpers_Refactored.dll": {}
+        }
+      },
+      "BurgerApp.Mappers_Refactored/1.0.0": {
+        "dependencies": {
+          "BurgerApp.ViewModels_Refactored": "1.0.0"
+        },
+        "runtime": {
+          "BurgerApp.Mappers_Refactored.dll": {}
+        }
+      },
+      "BurgerApp.Services_Refactored/1.0.0": {
+        "dependencies": {
+          "BurgerApp.DataAccess_Refactored": "1.0.0",
+          "BurgerApp.Mappers_Refactored": "1.0.0",
+          "BurgerApp.ViewModels_Refactored": "1.0.0"
+        },
+        "runtime": {
+          "BurgerApp.Services_Refactored.dll": {}
+        }
+      },
+      "BurgerApp.ViewModels_Refactored/1.0.0": {
+        "dependencies": {
+          "BurgerApp.Domain_Refactored": "1.0.0"
+        },
+        "runtime": {
+          "BurgerApp.ViewModels_Refactored.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BurgerAppRefactored/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    },
+    "BurgerApp.DataAccess_Refactored/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BurgerApp.Domain_Refactored/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BurgerApp.Helpers_Refactored/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BurgerApp.Mappers_Refactored/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BurgerApp.Services_Refactored/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BurgerApp.ViewModels_Refactored/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

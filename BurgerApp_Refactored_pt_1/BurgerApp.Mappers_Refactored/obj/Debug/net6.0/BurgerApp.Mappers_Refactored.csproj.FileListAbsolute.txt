@@ -1,0 +1,17 @@
+C:\Users\Darko Nikolikj\Desktop\Asp\Asp.Net.Mvc\BurgerApp_Refactored_pt_1\BurgerApp.Mappers_Refactored\bin\Debug\net6.0\BurgerApp.Mappers_Refactored.deps.json
+C:\Users\Darko Nikolikj\Desktop\Asp\Asp.Net.Mvc\BurgerApp_Refactored_pt_1\BurgerApp.Mappers_Refactored\bin\Debug\net6.0\BurgerApp.Mappers_Refactored.dll
+C:\Users\Darko Nikolikj\Desktop\Asp\Asp.Net.Mvc\BurgerApp_Refactored_pt_1\BurgerApp.Mappers_Refactored\bin\Debug\net6.0\BurgerApp.Mappers_Refactored.pdb
+C:\Users\Darko Nikolikj\Desktop\Asp\Asp.Net.Mvc\BurgerApp_Refactored_pt_1\BurgerApp.Mappers_Refactored\bin\Debug\net6.0\BurgerApp.Domain_Refactored.dll
+C:\Users\Darko Nikolikj\Desktop\Asp\Asp.Net.Mvc\BurgerApp_Refactored_pt_1\BurgerApp.Mappers_Refactored\bin\Debug\net6.0\BurgerApp.ViewModels_Refactored.dll
+C:\Users\Darko Nikolikj\Desktop\Asp\Asp.Net.Mvc\BurgerApp_Refactored_pt_1\BurgerApp.Mappers_Refactored\bin\Debug\net6.0\BurgerApp.ViewModels_Refactored.pdb
+C:\Users\Darko Nikolikj\Desktop\Asp\Asp.Net.Mvc\BurgerApp_Refactored_pt_1\BurgerApp.Mappers_Refactored\bin\Debug\net6.0\BurgerApp.Domain_Refactored.pdb
+C:\Users\Darko Nikolikj\Desktop\Asp\Asp.Net.Mvc\BurgerApp_Refactored_pt_1\BurgerApp.Mappers_Refactored\obj\Debug\net6.0\BurgerApp.Mappers_Refactored.csproj.AssemblyReference.cache
+C:\Users\Darko Nikolikj\Desktop\Asp\Asp.Net.Mvc\BurgerApp_Refactored_pt_1\BurgerApp.Mappers_Refactored\obj\Debug\net6.0\BurgerApp.Mappers_Refactored.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Darko Nikolikj\Desktop\Asp\Asp.Net.Mvc\BurgerApp_Refactored_pt_1\BurgerApp.Mappers_Refactored\obj\Debug\net6.0\BurgerApp.Mappers_Refactored.AssemblyInfoInputs.cache
+C:\Users\Darko Nikolikj\Desktop\Asp\Asp.Net.Mvc\BurgerApp_Refactored_pt_1\BurgerApp.Mappers_Refactored\obj\Debug\net6.0\BurgerApp.Mappers_Refactored.AssemblyInfo.cs
+C:\Users\Darko Nikolikj\Desktop\Asp\Asp.Net.Mvc\BurgerApp_Refactored_pt_1\BurgerApp.Mappers_Refactored\obj\Debug\net6.0\BurgerApp.Mappers_Refactored.csproj.CoreCompileInputs.cache
+C:\Users\Darko Nikolikj\Desktop\Asp\Asp.Net.Mvc\BurgerApp_Refactored_pt_1\BurgerApp.Mappers_Refactored\obj\Debug\net6.0\BurgerApp.Mappers_Refactored.csproj.CopyComplete
+C:\Users\Darko Nikolikj\Desktop\Asp\Asp.Net.Mvc\BurgerApp_Refactored_pt_1\BurgerApp.Mappers_Refactored\obj\Debug\net6.0\BurgerApp.Mappers_Refactored.dll
+C:\Users\Darko Nikolikj\Desktop\Asp\Asp.Net.Mvc\BurgerApp_Refactored_pt_1\BurgerApp.Mappers_Refactored\obj\Debug\net6.0\refint\BurgerApp.Mappers_Refactored.dll
+C:\Users\Darko Nikolikj\Desktop\Asp\Asp.Net.Mvc\BurgerApp_Refactored_pt_1\BurgerApp.Mappers_Refactored\obj\Debug\net6.0\BurgerApp.Mappers_Refactored.pdb
+C:\Users\Darko Nikolikj\Desktop\Asp\Asp.Net.Mvc\BurgerApp_Refactored_pt_1\BurgerApp.Mappers_Refactored\obj\Debug\net6.0\ref\BurgerApp.Mappers_Refactored.dll

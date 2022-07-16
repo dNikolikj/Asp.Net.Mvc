@@ -1,0 +1,216 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "BurgerApp.DataAccess_Refactored/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BurgerApp.Domain_Refactored": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BurgerApp.DataAccess_Refactored.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BurgerApp.DataAccess_Refactored.dll": {}
+        }
+      },
+      "BurgerApp.Domain_Refactored/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BurgerApp.Domain_Refactored.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BurgerApp.Domain_Refactored.dll": {}
+        }
+      },
+      "BurgerApp.Mappers_Refactored/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BurgerApp.ViewModels_Refactored": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BurgerApp.Mappers_Refactored.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BurgerApp.Mappers_Refactored.dll": {}
+        }
+      },
+      "BurgerApp.Services_Refactored/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BurgerApp.DataAccess_Refactored": "1.0.0",
+          "BurgerApp.Mappers_Refactored": "1.0.0",
+          "BurgerApp.ViewModels_Refactored": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BurgerApp.Services_Refactored.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BurgerApp.Services_Refactored.dll": {}
+        }
+      },
+      "BurgerApp.ViewModels_Refactored/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BurgerApp.Domain_Refactored": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BurgerApp.ViewModels_Refactored.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BurgerApp.ViewModels_Refactored.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "sha512": "xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "BurgerApp.DataAccess_Refactored/1.0.0": {
+      "type": "project",
+      "path": "../BurgerApp.DataAccess_Refactored/BurgerApp.DataAccess_Refactored.csproj",
+      "msbuildProject": "../BurgerApp.DataAccess_Refactored/BurgerApp.DataAccess_Refactored.csproj"
+    },
+    "BurgerApp.Domain_Refactored/1.0.0": {
+      "type": "project",
+      "path": "../BurgerApp.Domain_Refactored/BurgerApp.Domain_Refactored.csproj",
+      "msbuildProject": "../BurgerApp.Domain_Refactored/BurgerApp.Domain_Refactored.csproj"
+    },
+    "BurgerApp.Mappers_Refactored/1.0.0": {
+      "type": "project",
+      "path": "../BurgerApp.Mappers_Refactored/BurgerApp.Mappers_Refactored.csproj",
+      "msbuildProject": "../BurgerApp.Mappers_Refactored/BurgerApp.Mappers_Refactored.csproj"
+    },
+    "BurgerApp.Services_Refactored/1.0.0": {
+      "type": "project",
+      "path": "../BurgerApp.Services_Refactored/BurgerApp.Services_Refactored.csproj",
+      "msbuildProject": "../BurgerApp.Services_Refactored/BurgerApp.Services_Refactored.csproj"
+    },
+    "BurgerApp.ViewModels_Refactored/1.0.0": {
+      "type": "project",
+      "path": "../BurgerApp.ViewModels_Refactored/BurgerApp.ViewModels_Refactored.csproj",
+      "msbuildProject": "../BurgerApp.ViewModels_Refactored/BurgerApp.ViewModels_Refactored.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "BurgerApp.DataAccess_Refactored >= 1.0.0",
+      "BurgerApp.Domain_Refactored >= 1.0.0",
+      "BurgerApp.Services_Refactored >= 1.0.0",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 6.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Darko Nikolikj\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Darko Nikolikj\\Desktop\\Asp\\Asp.Net.Mvc\\BurgerApp_Refactored_pt_1\\BurgerApp.Helpers_Refactored\\BurgerApp.Helpers_Refactored.csproj",
+      "projectName": "BurgerApp.Helpers_Refactored",
+      "projectPath": "C:\\Users\\Darko Nikolikj\\Desktop\\Asp\\Asp.Net.Mvc\\BurgerApp_Refactored_pt_1\\BurgerApp.Helpers_Refactored\\BurgerApp.Helpers_Refactored.csproj",
+      "packagesPath": "C:\\Users\\Darko Nikolikj\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Darko Nikolikj\\Desktop\\Asp\\Asp.Net.Mvc\\BurgerApp_Refactored_pt_1\\BurgerApp.Helpers_Refactored\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Darko Nikolikj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Darko Nikolikj\\Desktop\\Asp\\Asp.Net.Mvc\\BurgerApp_Refactored_pt_1\\BurgerApp.DataAccess_Refactored\\BurgerApp.DataAccess_Refactored.csproj": {
+              "projectPath": "C:\\Users\\Darko Nikolikj\\Desktop\\Asp\\Asp.Net.Mvc\\BurgerApp_Refactored_pt_1\\BurgerApp.DataAccess_Refactored\\BurgerApp.DataAccess_Refactored.csproj"
+            },
+            "C:\\Users\\Darko Nikolikj\\Desktop\\Asp\\Asp.Net.Mvc\\BurgerApp_Refactored_pt_1\\BurgerApp.Domain_Refactored\\BurgerApp.Domain_Refactored.csproj": {
+              "projectPath": "C:\\Users\\Darko Nikolikj\\Desktop\\Asp\\Asp.Net.Mvc\\BurgerApp_Refactored_pt_1\\BurgerApp.Domain_Refactored\\BurgerApp.Domain_Refactored.csproj"
+            },
+            "C:\\Users\\Darko Nikolikj\\Desktop\\Asp\\Asp.Net.Mvc\\BurgerApp_Refactored_pt_1\\BurgerApp.Services_Refactored\\BurgerApp.Services_Refactored.csproj": {
+              "projectPath": "C:\\Users\\Darko Nikolikj\\Desktop\\Asp\\Asp.Net.Mvc\\BurgerApp_Refactored_pt_1\\BurgerApp.Services_Refactored\\BurgerApp.Services_Refactored.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
