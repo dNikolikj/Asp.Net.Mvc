@@ -1,0 +1,33 @@
+﻿@model List<OrderDetailsViewModel>
+
+
+<div class="text-center"> 
+<h1>@ViewBag.Title</h1>
+
+
+@foreach (var order in @Model)
+{
+    <h3>Master: @order.UserFullName , made the following order at @order.YourMapPick.</h3>
+    <h4>Here is your  " A la dN " package: </h4>
+    
+            @foreach(var burger in order.SoundsDelicious)
+            {
+                <li>@burger</li>
+            }
+
+   
+    <text>Hence the saying: "If you are good at something never do it for free"...</text>
+    <text>The price for this order is: @order.Price denars, and it was payed by @order.PaymentMethod.</text>
+    
+     
+    
+    <div class = "text-center">
+    <a style="color:white" asp-controller="Order" asp-action="Details" asp-route-id="@order.Id">Details</a>
+    <a style="color:white" asp-controller="Order" asp-action="ModifyOrder" asp-route-id="@order.Id">Modify</a>
+    <a style="color:white" asp-controller="Order" asp-action="DeleteOrder" asp-route-id="@order.Id">Delete</a>
+    </div>
+}
+<br />
+
+    <a style="color:white" asp-controller="Order" asp-action="AddNewOrder">Don't Stop Believin', add a new order!</a>
+</div>

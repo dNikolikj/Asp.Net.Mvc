@@ -1,0 +1,96 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BurgerAppRefactored
+build_property.RootNamespace = BurgerAppRefactored
+build_property.ProjectDir = C:\Users\Darko Nikolikj\Desktop\BurgerApp_Refactored_final\BurgerAppRefactored\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Darko Nikolikj\Desktop\BurgerApp_Refactored_final\BurgerAppRefactored
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Darko Nikolikj/Desktop/BurgerApp_Refactored_final/BurgerAppRefactored/Views/Burger/BurgerMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVyZ2VyXEJ1cmdlck1lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Darko Nikolikj/Desktop/BurgerApp_Refactored_final/BurgerAppRefactored/Views/Burger/ChefsLitlleMagic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVyZ2VyXENoZWZzTGl0bGxlTWFnaWMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Darko Nikolikj/Desktop/BurgerApp_Refactored_final/BurgerAppRefactored/Views/Burger/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVyZ2VyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Darko Nikolikj/Desktop/BurgerApp_Refactored_final/BurgerAppRefactored/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Darko Nikolikj/Desktop/BurgerApp_Refactored_final/BurgerAppRefactored/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Darko Nikolikj/Desktop/BurgerApp_Refactored_final/BurgerAppRefactored/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Darko Nikolikj/Desktop/BurgerApp_Refactored_final/BurgerAppRefactored/Views/Order/AddBurger.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQWRkQnVyZ2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Darko Nikolikj/Desktop/BurgerApp_Refactored_final/BurgerAppRefactored/Views/Order/AddNewOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQWRkTmV3T3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Darko Nikolikj/Desktop/BurgerApp_Refactored_final/BurgerAppRefactored/Views/Order/DeleteOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGVsZXRlT3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Darko Nikolikj/Desktop/BurgerApp_Refactored_final/BurgerAppRefactored/Views/Order/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Darko Nikolikj/Desktop/BurgerApp_Refactored_final/BurgerAppRefactored/Views/Order/ModifyOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcTW9kaWZ5T3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Darko Nikolikj/Desktop/BurgerApp_Refactored_final/BurgerAppRefactored/Views/Order/SeeOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcU2VlT3JkZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Darko Nikolikj/Desktop/BurgerApp_Refactored_final/BurgerAppRefactored/Views/Shared/CustomErrorMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEN1c3RvbUVycm9yTWVzc2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Darko Nikolikj/Desktop/BurgerApp_Refactored_final/BurgerAppRefactored/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Darko Nikolikj/Desktop/BurgerApp_Refactored_final/BurgerAppRefactored/Views/Shared/Partials/_BurgerDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxzXF9CdXJnZXJEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Darko Nikolikj/Desktop/BurgerApp_Refactored_final/BurgerAppRefactored/Views/Shared/ResourceNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFJlc291cmNlTm90Rm91bmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Darko Nikolikj/Desktop/BurgerApp_Refactored_final/BurgerAppRefactored/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Darko Nikolikj/Desktop/BurgerApp_Refactored_final/BurgerAppRefactored/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Darko Nikolikj/Desktop/BurgerApp_Refactored_final/BurgerAppRefactored/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Darko Nikolikj/Desktop/BurgerApp_Refactored_final/BurgerAppRefactored/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-7lko707qnn
