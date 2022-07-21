@@ -130,9 +130,6 @@ namespace BurgerApp.DataAccess_Refactored.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int>("BurgerId")
-                        .HasColumnType("int");
-
                     b.Property<bool>("IsDelivered")
                         .HasColumnType("bit");
 
@@ -147,8 +144,6 @@ namespace BurgerApp.DataAccess_Refactored.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("BurgerId");
-
                     b.HasIndex("UserId");
 
                     b.ToTable("Orders");
@@ -157,7 +152,6 @@ namespace BurgerApp.DataAccess_Refactored.Migrations
                         new
                         {
                             Id = 1,
-                            BurgerId = 1,
                             IsDelivered = true,
                             PaymentMethod = 1,
                             StoreAddress = 1,
@@ -166,7 +160,6 @@ namespace BurgerApp.DataAccess_Refactored.Migrations
                         new
                         {
                             Id = 2,
-                            BurgerId = 3,
                             IsDelivered = false,
                             PaymentMethod = 2,
                             StoreAddress = 2,
@@ -175,7 +168,6 @@ namespace BurgerApp.DataAccess_Refactored.Migrations
                         new
                         {
                             Id = 3,
-                            BurgerId = 2,
                             IsDelivered = false,
                             PaymentMethod = 2,
                             StoreAddress = 3,
@@ -252,19 +244,11 @@ namespace BurgerApp.DataAccess_Refactored.Migrations
 
             modelBuilder.Entity("BurgerApp.Domain_Refactored.Models.Order", b =>
                 {
-                    b.HasOne("BurgerApp.Domain_Refactored.Models.Burger", "Burger")
-                        .WithMany()
-                        .HasForeignKey("BurgerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("BurgerApp.Domain_Refactored.Models.User", "User")
                         .WithMany("Orders")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Burger");
 
                     b.Navigation("User");
                 });

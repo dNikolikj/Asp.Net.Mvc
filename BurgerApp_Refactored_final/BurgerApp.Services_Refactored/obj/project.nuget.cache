@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lL0qO/vb6FgAH2qBNG8FPejrnoNqIOVtWE9vd1zs90KDFXcm3yo19A6PhKv7DJsPxbOUM4QQHSy/ZgA9C5rhFg==",
+  "dgSpecHash": "eigBrYT5ttg+6piPMVzakwkMJtryeELWb/WWv+RMZDYpTtXjhbHFuaON9K+rkcfv4ziEKrzvR4WUn8XrbocPlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Darko Nikolikj\\Desktop\\BurgerApp_Refactored_final\\BurgerApp.Services_Refactored\\BurgerApp.Services_Refactored.csproj",
+  "projectFilePath": "C:\\Users\\Darko Nikolikj\\Desktop\\Asp\\Asp.Net.Mvc\\BurgerApp_Refactored_final\\BurgerApp.Services_Refactored\\BurgerApp.Services_Refactored.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Darko Nikolikj\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Darko Nikolikj\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

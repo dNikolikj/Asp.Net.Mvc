@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3vEiZwDmzxv/dMfkYnpeJsAOPAfl9h2+KXXtBucvQCmQ66K4OMxCQc6atUY48jVA+YQw40ycpRkt7VTnDRtCWw==",
+  "dgSpecHash": "RA7li2ieVA2fc3Px7iI7jhaXjkEVeb7aPSMIc2ddObQu0oxLJd2alPPih9qINvrR57qwrfo+g/g4KUiHQNMANg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Darko Nikolikj\\Desktop\\BurgerApp_Refactored_final\\BurgerApp.ViewModels_Refactored\\BurgerApp.ViewModels_Refactored.csproj",
+  "projectFilePath": "C:\\Users\\Darko Nikolikj\\Desktop\\Asp\\Asp.Net.Mvc\\BurgerApp_Refactored_final\\BurgerApp.ViewModels_Refactored\\BurgerApp.ViewModels_Refactored.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Darko Nikolikj\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.7\\microsoft.entityframeworkcore.6.0.7.nupkg.sha512",
     "C:\\Users\\Darko Nikolikj\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.7\\microsoft.entityframeworkcore.abstractions.6.0.7.nupkg.sha512",

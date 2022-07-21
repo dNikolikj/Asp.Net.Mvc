@@ -107,8 +107,6 @@ namespace BurgerApp.Services_Refactored.Implementations
             orderDb.UserId = orderViewModel.UserId;
             orderDb.StoreAddress = orderViewModel.StoreAddress;
             orderDb.User = userDb;
-            orderDb.BurgerId=orderViewModel.BurgerId;
-            orderDb.Burger = burgerDb;
             orderDb.PaymentMethod = orderViewModel.PaymentMethod;
             orderDb.IsDelivered = orderViewModel.Delivered;
             

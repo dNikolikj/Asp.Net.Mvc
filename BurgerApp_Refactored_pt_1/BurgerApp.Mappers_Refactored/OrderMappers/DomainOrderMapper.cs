@@ -14,7 +14,6 @@ namespace BurgerApp.Mappers_Refactored.OrderMappers
                 StoreAddress = orderViewModel.StoreAddress,
                 IsDelivered = orderViewModel.Delivered,
                 UserId = orderViewModel.UserId,
-                BurgerId = orderViewModel.BurgerId,
                 FoodPornBasket = new List<BurgerBasket>()
             }; 
         }

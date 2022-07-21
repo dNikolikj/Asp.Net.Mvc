@@ -132,7 +132,7 @@ namespace BurgerApp.DataAccess_Refactored
                     IsDelivered = true,
                     StoreAddress = StoreAddress.Aerodrom,
                     UserId = 1,
-                    BurgerId = 1
+                   
 
                 },
                 new Order()
@@ -142,7 +142,7 @@ namespace BurgerApp.DataAccess_Refactored
                     IsDelivered = false,
                     StoreAddress = StoreAddress.Karposh,
                     UserId = 2,
-                    BurgerId = 3
+                  
 
                 },
                 new Order()
@@ -152,7 +152,7 @@ namespace BurgerApp.DataAccess_Refactored
                     IsDelivered = false,
                     StoreAddress = StoreAddress.Vlae,
                     UserId = 3,
-                    BurgerId = 2
+                    
 
 
                 });

@@ -172,6 +172,8 @@ namespace BurgerApp.DataAccess_Refactored
                             NumberOfBurgers = 1,
                             OrderId=2
                         }
+                        
+                        
 
                     }
                 },
@@ -182,7 +184,7 @@ namespace BurgerApp.DataAccess_Refactored
                     IsDelivered=false,
                     StoreAddress = StoreAddress.Vlae,
                     User = Users.FirstOrDefault(x => x.Id ==3),
-                    BurgerId = Burgers[2].Id,
+        
                     FoodPornBasket= new List<BurgerBasket>
                     {
                         new BurgerBasket()

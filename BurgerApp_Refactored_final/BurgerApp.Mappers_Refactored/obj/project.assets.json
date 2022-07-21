@@ -569,11 +569,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Darko Nikolikj\\Desktop\\BurgerApp_Refactored_final\\BurgerApp.Mappers_Refactored\\BurgerApp.Mappers_Refactored.csproj",
+      "projectUniqueName": "C:\\Users\\Darko Nikolikj\\Desktop\\Asp\\Asp.Net.Mvc\\BurgerApp_Refactored_final\\BurgerApp.Mappers_Refactored\\BurgerApp.Mappers_Refactored.csproj",
       "projectName": "BurgerApp.Mappers_Refactored",
-      "projectPath": "C:\\Users\\Darko Nikolikj\\Desktop\\BurgerApp_Refactored_final\\BurgerApp.Mappers_Refactored\\BurgerApp.Mappers_Refactored.csproj",
+      "projectPath": "C:\\Users\\Darko Nikolikj\\Desktop\\Asp\\Asp.Net.Mvc\\BurgerApp_Refactored_final\\BurgerApp.Mappers_Refactored\\BurgerApp.Mappers_Refactored.csproj",
       "packagesPath": "C:\\Users\\Darko Nikolikj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Darko Nikolikj\\Desktop\\BurgerApp_Refactored_final\\BurgerApp.Mappers_Refactored\\obj\\",
+      "outputPath": "C:\\Users\\Darko Nikolikj\\Desktop\\Asp\\Asp.Net.Mvc\\BurgerApp_Refactored_final\\BurgerApp.Mappers_Refactored\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Darko Nikolikj\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -590,8 +590,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Darko Nikolikj\\Desktop\\BurgerApp_Refactored_final\\BurgerApp.ViewModels_Refactored\\BurgerApp.ViewModels_Refactored.csproj": {
-              "projectPath": "C:\\Users\\Darko Nikolikj\\Desktop\\BurgerApp_Refactored_final\\BurgerApp.ViewModels_Refactored\\BurgerApp.ViewModels_Refactored.csproj"
+            "C:\\Users\\Darko Nikolikj\\Desktop\\Asp\\Asp.Net.Mvc\\BurgerApp_Refactored_final\\BurgerApp.ViewModels_Refactored\\BurgerApp.ViewModels_Refactored.csproj": {
+              "projectPath": "C:\\Users\\Darko Nikolikj\\Desktop\\Asp\\Asp.Net.Mvc\\BurgerApp_Refactored_final\\BurgerApp.ViewModels_Refactored\\BurgerApp.ViewModels_Refactored.csproj"
             }
           }
         }

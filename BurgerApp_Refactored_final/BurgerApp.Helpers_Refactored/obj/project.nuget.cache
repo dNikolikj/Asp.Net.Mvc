@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a2x+Tnz0it4zGBl5qlft9sKZBJPLRgi3/FjFA32yNKc64L4QOToIyBKSonjjS5EfotHM0xJGOQieIbtGINQq3g==",
+  "dgSpecHash": "1x3xWY4rXFHCE6J9YG+6p4cUFbxpeN3bAjPHCB5LJHDm4RjawmJ8eo144/NF2GaNzKotlMz43VykhCTT+UTv0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Darko Nikolikj\\Desktop\\BurgerApp_Refactored_final\\BurgerApp.Helpers_Refactored\\BurgerApp.Helpers_Refactored.csproj",
+  "projectFilePath": "C:\\Users\\Darko Nikolikj\\Desktop\\Asp\\Asp.Net.Mvc\\BurgerApp_Refactored_final\\BurgerApp.Helpers_Refactored\\BurgerApp.Helpers_Refactored.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Darko Nikolikj\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Darko Nikolikj\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
